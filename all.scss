@@ -1,0 +1,124 @@
+@import "./style/reset";
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 80px;
+  line-height: 94px;
+  font-family: "Roboto";
+  border-bottom: 2px solid #000;
+}
+
+.profile-img {
+  width: 324px;
+  margin: 48px 0;
+}
+
+.info-section {
+  margin-bottom: 72px;
+  .info-title {
+    font-size: 32px;
+    line-height: 49px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+    span {
+      font-size: 24px;
+      line-height: 28px;
+      padding-left: 16px;
+      font-weight: 500;
+    }
+  }
+}
+
+.text-red {
+  color: #a00404;
+}
+
+.items {
+  margin: 0 auto;
+  .item {
+    margin-bottom: 24px;
+    font-size: 24px;
+    .description {
+      line-height: 36px;
+      font-family: "Noto Sans";
+    }
+  }
+}
+
+.skill,
+.footer {
+  padding: 24px 0 36px;
+  background-color: #415165;
+}
+
+.inner-skill,
+.inner-footer {
+  width: 996px;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  .info-title {
+    text-align: center;
+    border-color: white;
+  }
+}
+
+.inner-skill {
+  .items {
+    border-left: 1px solid #96a9c4;
+    padding-left: 24px;
+    display: inline-block;
+    .item {
+      text-align: left;
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.experience {
+  .items {
+    margin-left: 24px;
+    border-left: 1px solid #96a9c4;
+    padding-left: 24px;
+    .exp-title {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    .exp-img {
+      width: 90px;
+      margin: 8px 0;
+    }
+    .exp-detail {
+      font-size: 20px;
+      line-height: 30px;
+      width: 642px;
+    }
+  }
+}
+
+.inner-footer {
+  text-align: center;
+  a {
+    color: #fff;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .items .item ul {
+    display: flex;
+    justify-content: center;
+    li:not(:last-child) {
+      margin-right: 24px;
+    }
+  }
+}
